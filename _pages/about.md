@@ -21,8 +21,6 @@ As of July 6, 2024, I've been spending my time to learn more Machine Learning an
 - Studying the well-known book *Elements of Statistical Learning*
 - Learning from the advanced graduate-level text *Understanding Machine Learning: From Theory to Algorithms*
 
-The Grand Idea is to build an application that tracks my technology use (similar to Andrej Karpathy's ulogme) with additional capabilities and predict fatigue, long internet detours, and hopefully prevent them by recommending breaks. The added value here is that traditional timers and technology constraints like the Pomodoro timer are so contrived and artificial that they discount flow states and disrupt moments of intense concentration. It is more likely that fatigue can be detected by looking at velocity of mouse and keyboard movements, tab and window switches, and the content being consumed. By leveraging prediction, an ML algorithm can give you the break you need before you realize you do. 
-
 ## Experience
 
 University of Maryland Institute for Advanced Computer Studies (UMIACS) GAMMA Lab during Spring 2024:
