@@ -36,7 +36,7 @@ I don't have a lot of comments here because I haven't taken them yet.
 
 * **CMSC132, Object-Oriented Programming II (A):** Standard Introductory course. Fawzi really elevated my learning experience. Extremely valuable course too. 
 
-* **ECON200, Microeconomics (A)** Probably my favorite gened course. Lots of fun concepts (Game Theory, Externalities). 
+* **ECON200, Microeconomics (A)** Probably my favorite non-math/cs course. Lots of fun concepts (Game Theory, Externalities). 
 
 
 
