@@ -5,7 +5,7 @@ permalink: /coursework/
 author_profile: true
 
 ---
-This is not an exhaustive list and I've only listed the ones I want to comment on. Most of the courses are the ones that I personally learned a lot from and value looking back. I was inspired to write about this stuff after reading a similar post by one of my classmates ([Nick])(https://sladjkf.github.io/posts/2_first_year_grad_school/).
+This is not an exhaustive list and I've only listed the ones I want to comment on. Most of the courses are the ones that I personally learned a lot from and value looking back. I was inspired to write about this stuff after reading a similar post by [Nick](https://sladjkf.github.io/posts/2_first_year_grad_school/), one of my classmates.
 
 **Current Coursework (Spring 2025):**
 I listed them here in case you were curious. No insights yet, I'm still taking them. 
