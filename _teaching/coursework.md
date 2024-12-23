@@ -5,7 +5,7 @@ permalink: /coursework/
 author_profile: true
 
 ---
-This is not an exhaustive list. The courses here are either ones I learned a lot from or have something to say about. For almost all both are true. 
+This is not an exhaustive list. The courses here are either ones I learned a lot from or have something to say about. For almost all both are true. The commentary is in a style inspired by one of my classmates [Nick](https://sladjkf.github.io/posts/2_first_year_grad_school/)
 
 **Current Coursework (Spring 2025):**
 I don't have a lot of comments here because I haven't taken them yet. 
@@ -20,7 +20,7 @@ I don't have a lot of comments here because I haven't taken them yet.
 
 **Previous Coursework:**
 
-* **CMSC451: Design and Analysis of Algorithms (A+):** An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). CMSC351 in comparison is pretty routine (and in my experience tedious and boring). 
+* **CMSC451: Design and Analysis of Algorithms (A+):** An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). CMSC351 in comparison is pretty routine and (in my experience) tedious and boring. If you didn't like 351, you should still consider  
 
 * **CMSC320: Introduction to Data Science (A):** If you're interested in the field like I am, you probably have some exposure to statistics/data science, in which case you should expect to do pretty well and shouldn't need to spend much time (if any) studying. The second half is Machine Learning so it gets pretty interesting. 
 
