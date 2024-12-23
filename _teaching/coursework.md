@@ -20,13 +20,13 @@ I don't have a lot of comments here because I haven't taken them yet.
 
 **Previous Coursework:**
 
-* **CMSC451: Design and Analysis of Algorithms (A+):** An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). CMSC351 in comparison is pretty routine and (in my experience) tedious and boring. If you didn't like 351, you should still consider  
+* **CMSC451: Design and Analysis of Algorithms (A+):** An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). If you didn't like CMSC351, don't automatically assume you won't like this one. While both are theoretical, 351 in comparision is (in my experience) somewhat dull and routine. Afterall 351 is mostly analyzing sorting algorithms rather tediously. 451 goes beyond all that and there's a good chance you'll find it interesting. 
 
 * **CMSC320: Introduction to Data Science (A):** If you're interested in the field like I am, you probably have some exposure to statistics/data science, in which case you should expect to do pretty well and shouldn't need to spend much time (if any) studying. The second half is Machine Learning so it gets pretty interesting. 
 
 * **ENEE620: Random Processes in Communication & Control (B):** Graduate Level Probability and Random Processes (Measure-Theoretic Treatment). Conceptually this is probably the most difficult course I've taken. It was actually not too hard to score in, I did well on the final but lost a good portion of my grade because of a couple homeworks. If you want a condensed version of the STAT600-601, I highly recommend taking this course with Dr. Barg ([course website](https://user.eng.umd.edu/~abarg/620/)). Dr. Barg uses Durrett, Billingsely, Shiryaev and more. 
 
-* **MATH299B (1 credit): Putnam Express (C):** I took the course because I'd never done competition math before and wanted some exposure. Grading was based entirely on participation. Halfway into the semester I got bored and realized I didn't care about this. Didn't expect the C though. RIP GPA. 
+* **MATH299B (1 credit): Putnam Express (C):** I took the course because I'd never done competition math before and wanted some exposure. Grading was based entirely on participation. Halfway into the semester I got bored and realized I didn't care about this. Didn't expect the C though. RIP GPA. Dr. Ebrahimian is a fantastic instructor though, and clearly passionate about math competitions. 
 
 * **STAT410, Introduction to Probability Theory (A-):** This course depends entirely on the Professor. I wanted to learn a lot from it and got extremely lucky with Prof. Yu Gu. His course is conceptually much harder than many of the alternative offerings and he will tell you about it in the first class. Differences are mainly mathematical rigor, his emphasis on giving you intuition, less coin/dice examples and more uses of random walks and coverage of random vectors (gaussian) that most professors do not. 
 
