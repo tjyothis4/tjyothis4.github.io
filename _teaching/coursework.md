@@ -9,9 +9,9 @@ This is not an exhaustive list. The courses here are either ones I learned a lot
 
 **Current Coursework (Spring 2025):**
 I don't have a lot of comments here because I haven't taken them yet. 
-* **STAT650: Applied Stochastic Processes:**: This is my second time taking a grad probability class. Mostly taking it because probability is fun. This one should be less abstract than the previous one I took (ENEE620). 
+* **STAT650: Applied Stochastic Processes:** This is my second time taking a grad probability class. Mostly taking it because probability is fun. This one should be less abstract than the previous one I took (ENEE620). 
 
-* **CMSC828C: Statistical Pattern Recognition:**: Graduate Machine Learning. I'm taking this over the undergrad treatment mostly because I wanted to learn a lot more and I wanted a more mathematical treatment.  
+* **CMSC828C: Statistical Pattern Recognition:** Graduate Machine Learning. I'm taking this over the undergrad treatment mostly because I wanted to learn a lot more and I wanted a more mathematical treatment.  
 
 * **CMSC424: Database Design:** A course on Databases, should help my career. 
 
@@ -20,9 +20,9 @@ I don't have a lot of comments here because I haven't taken them yet.
 
 **Previous Coursework:**
 
-* **CMSC451: Design and Analysis of Algorithms (A+)**: An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). CMSC351 in comparison is pretty routine (and in my experience tedious and boring). 
+* **CMSC451: Design and Analysis of Algorithms (A+):** An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). CMSC351 in comparison is pretty routine (and in my experience tedious and boring). 
 
-* **CMSC320: Introduction to Data Science (A)**: If you're interested in the field like I am, you probably have some exposure to statistics/data science, in which case you should expect to do pretty well and shouldn't need to spend much time (if any) studying. The second half is Machine Learning so it gets pretty interesting. 
+* **CMSC320: Introduction to Data Science (A):** If you're interested in the field like I am, you probably have some exposure to statistics/data science, in which case you should expect to do pretty well and shouldn't need to spend much time (if any) studying. The second half is Machine Learning so it gets pretty interesting. 
 
 * **ENEE620: Random Processes in Communication & Control (B):** Graduate Level Probability and Random Processes (Measure-Theoretic Treatment). Conceptually this is probably the most difficult course I've taken. It was actually not too hard to score in, I did well on the final but lost a good portion of my grade because of a couple homeworks. If you want a condensed version of the STAT600-601, I highly recommend taking this course with Dr. Barg ([course website](https://user.eng.umd.edu/~abarg/620/)). I think other Professors tend to ease on the mathematical level and follow at most two textbooks. Dr. Barg uses Durrett, Billingsely, Shiryaev and more. 
 
