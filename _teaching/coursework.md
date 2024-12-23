@@ -33,7 +33,7 @@ I listed them here in case you were curious. No insights yet, I'm still taking t
 
 * **CMSC330, Organization of Programming Languages (A-):** Theory of Programming Languages. Probably the best CS course I've taken at UMD. So good. Took it when Cliff was co-teaching with Anwar. OCaml code is beautiful and you might even be turned off by Python/Java and the like after this course.  
 
-* **CMSC250, Discrete Structures (A+):** This course also varies from Instructor to Instructor. I took it with Maksym Morawski. He enjoys/prides himself on giving exams that really test your understanding. What this translates to is hard/long exams with questions that are fun and challenging. Take it with him if you want a somewhat unorthodox Instructor.
+* **CMSC250, Discrete Structures (A+):** This course also varies from Instructor to Instructor. I took it with Maksym Morawski. He enjoys/prides himself on giving exams that really test your understanding. What this translates to is hard/long exams with questions that are fun and challenging. Take it with him if you want a somewhat unorthodox Instructor. People might tell you this class is useless but I found that (especially if you haven't seen it before) the mental rewiring discrete math problems give you is extremely useful for Algorithms and Probability. In general, problem solving experience is good and this class gives everyone a chance to gain some. 
 
 * **CMSC132, Object-Oriented Programming II (A):** Standard Introductory course. Fawzi really elevated my learning experience. Extremely valuable course too. 
 
