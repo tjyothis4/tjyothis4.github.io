@@ -22,7 +22,7 @@ I don't have a lot of comments here because I haven't taken them yet.
 
 * **CMSC451: Design and Analysis of Algorithms (A+)**: An advanced upper level version of the algorithms course at UMD. Highly recommend taking it with Laxman. Lots of interesting content (Network Flow, Parallelism, etc.). CMSC351 in comparison is pretty routine (and in my experience tedious and boring). 
 
-**CMSC320: Introduction to Data Science (A)**: If you're interested in the field like I am, you probably have some exposure to statistics/data science, in which case you should expect to do pretty well and shouldn't need to spend much time (if any) studying. The second half is Machine Learning so it gets pretty interesting. 
+* **CMSC320: Introduction to Data Science (A)**: If you're interested in the field like I am, you probably have some exposure to statistics/data science, in which case you should expect to do pretty well and shouldn't need to spend much time (if any) studying. The second half is Machine Learning so it gets pretty interesting. 
 
 * **ENEE620: Random Processes in Communication & Control (B):** Graduate Level Probability and Random Processes (Measure-Theoretic Treatment). Conceptually this is probably the most difficult course I've taken. It was actually not too hard to score in, I did well on the final but lost a good portion of my grade because of a couple homeworks. If you want a condensed version of the STAT600-601, I highly recommend taking this course with Dr. Barg ([course website](https://user.eng.umd.edu/~abarg/620/)). I think other Professors tend to ease on the mathematical level and follow at most two textbooks. Dr. Barg uses Durrett, Billingsely, Shiryaev and more. 
 
@@ -30,14 +30,13 @@ I don't have a lot of comments here because I haven't taken them yet.
 
 * **STAT410, Introduction to Probability Theory (A-):** This course depends entirely on the Professor. I wanted to learn a lot from it and got extremely lucky with Prof. Yu Gu. His course is conceptually much harder than many of the alternative offerings and he will tell you about it in the first class. Differences are mainly mathematical rigor, his emphasis on giving you intuition, less coin/dice examples and more uses of random walks and coverage of random vectors (gaussian) that most professors do not. 
 
-* **CMSC330, Organization of Programming Languages (A-):** Theory of Programming Languages. Probably the best CS course I've taken at UMD. So good. Took it when Cliff was co-teaching with Anwar. OCaml code is beautiful and you might even be turned off by Python/Java and the like. 
+* **CMSC330, Organization of Programming Languages (A-):** Theory of Programming Languages. Probably the best CS course I've taken at UMD. So good. Took it when Cliff was co-teaching with Anwar. OCaml code is beautiful and you might even be turned off by Python/Java and the like after this course.  
 
 * **CMSC250, Discrete Structures (A+):** This course also varies from Instructor to Instructor. I took it with Maksym Morawski. He enjoys/prides himself on giving exams that really test your understanding. What this translates to is hard/long exams with questions that are fun and challenging. Take it with him if you want a somewhat unorthodox Instructor.
 
 * **CMSC132, Object-Oriented Programming II (A):** Standard Introductory course. Fawzi really elevated my learning experience. Extremely valuable course too. 
 
-* **ECON200, Microeconomics (A)** Probably my favorite course from Freshman year. Lots of fun concepts (Game Theory, Externalities). 
-
+* **ECON200, Microeconomics (A)** Probably my favorite gened course. Lots of fun concepts (Game Theory, Externalities). 
 
 
 
