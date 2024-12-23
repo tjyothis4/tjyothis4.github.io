@@ -8,10 +8,10 @@ author_profile: true
 This is not an exhaustive list. The courses here are either ones I learned a lot from or have something to say about. For almost all both are true. 
 
 **Current Coursework (Spring 2025):**
-I don't have a lot of comments here because (obviously) I haven't taken them yet. 
+I don't have a lot of comments here because I haven't taken them yet. 
 * **STAT650: Applied Stochastic Processes:**: This is my second time taking a grad probability class. Mostly taking it because probability is fun. This one should be less abstract than the previous one I took (ENEE620). 
 
-**CMSC828C: Statistical Pattern Recognition:**: Graduate Machine Learning. I'm taking this over the undergrad treatment mostly because I wanted to learn a lot more and I wanted a more mathematical treatment.  
+* **CMSC828C: Statistical Pattern Recognition:**: Graduate Machine Learning. I'm taking this over the undergrad treatment mostly because I wanted to learn a lot more and I wanted a more mathematical treatment.  
 
 * **CMSC424: Database Design:** A course on Databases, should help my career. 
 
