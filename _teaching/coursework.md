@@ -5,7 +5,7 @@ permalink: /coursework/
 author_profile: true
 
 ---
-This is not an exhaustive list. The courses here are either ones I learned a lot from or have something to say about. For almost all both are true. The commentary is in a style inspired by one of my classmates [Nick](https://sladjkf.github.io/posts/2_first_year_grad_school/)
+This is not an exhaustive list. The courses here are either ones I learned a lot from or have something to say about. For almost all both are true. The commentary is in a style inspired by one of my classmates [Nick](https://sladjkf.github.io/posts/2_first_year_grad_school/).
 
 **Current Coursework (Spring 2025):**
 I don't have a lot of comments here because I haven't taken them yet. 
