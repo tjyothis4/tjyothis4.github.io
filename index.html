@@ -5,90 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanmay Jyothis</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0 auto;
-            padding: 20px;
-            max-width: 800px;
-            color: #333;
-        }
-        nav {
-            background-color: #f4f4f4;
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #2c3e50;
-            font-weight: 500;
-        }
-        nav a:hover {
-            color: #007bff;
-        }
-        header.section {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-        }
-        .profile-pic {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid #f0f0f0;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .courses-container {
+       .courses-container {
             display: flex;
             gap: 2rem;
             margin-top: 1rem;
         }
+
         .course-column {
             flex: 1;
             background: #f8f8f8;
             padding: 1.5rem;
             border-radius: 8px;
-            transition: transform 0.2s ease;
         }
-        .course-column:hover {
-            transform: translateY(-5px);
-        }
+
         .course-column h3 {
             margin-top: 0;
             color: #2c3e50;
-            border-bottom: 2px solid #007bff;
             padding-bottom: 0.5rem;
         }
+
         .course-column ul {
             padding-left: 1.2rem;
             list-style-type: square;
         }
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            color: #666;
-            padding: 20px 0;
-            border-top: 1px solid #eee;
+
+        .course-column a {
+            color: #2c3e50;
+            text-decoration: none;
         }
+
+        .course-column a:hover {
+            text-decoration: underline;
+        }
+
         @media (max-width: 600px) {
             .courses-container {
                 flex-direction: column;
             }
-            header.section {
-                flex-direction: column;
-                text-align: center;
-            }
-            .profile-pic {
-                margin: 0 auto;
-            }
-        }
+        } 
     </style>
 </head>
 <body>
@@ -101,9 +55,8 @@
         <header class="section">
             <img src="./images/pfp.jpeg" alt="Tanmay Jyothis Profile Picture" class="profile-pic">
             <div>
-                <h1>Tanmay J</h1>
-                <h2>Computer Science & Mathematics</h2>
-                <p>University of Maryland, College Park</p>
+                <h1>Tanmay Jyothis</h1>
+                <p>Computer Science & Mathematics @ University of Maryland, College Park</p>
             </div>
         </header>
 
@@ -138,8 +91,10 @@
                 <div class="course-column">
                     <h3>Mathematics</h3>
                     <ul>
+                        <li><a href="https://user.eng.umd.edu/~abarg/620/" target="_blank" rel="noopener noreferrer">
+                            ENEE620: Measure Theoretic Probability
+                        </a></li>
                         <li>STAT650: Applied Stochastic Processes (Graduate)</li>
-                        <li>ENEE620: Measure Theoretic Probability</li>
                         <li>MATH405: Linear Algebra</li>
                         <li>MATH410: Advanced Calculus I</li>
                     </ul>
