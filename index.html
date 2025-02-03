@@ -3,30 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanmay Jyothis - Computer Science & Mathematics</title>
+    <title>Tanmay Jyothis</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0 auto;
             padding: 20px;
             max-width: 800px;
+            color: #333;
         }
         nav {
             background-color: #f4f4f4;
             padding: 10px;
             margin-bottom: 20px;
+            border-radius: 8px;
         }
         nav a {
             margin-right: 15px;
             text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
         }
-        img {
-            max-width: 200px;
+        nav a:hover {
+            color: #007bff;
+        }
+        header.section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .profile-pic {
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #f0f0f0;
         }
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         .courses-container {
             display: flex;
@@ -38,17 +55,38 @@
             background: #f8f8f8;
             padding: 1.5rem;
             border-radius: 8px;
+            transition: transform 0.2s ease;
+        }
+        .course-column:hover {
+            transform: translateY(-5px);
         }
         .course-column h3 {
             margin-top: 0;
             color: #2c3e50;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5rem;
         }
         .course-column ul {
             padding-left: 1.2rem;
+            list-style-type: square;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
         }
         @media (max-width: 600px) {
             .courses-container {
                 flex-direction: column;
+            }
+            header.section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-pic {
+                margin: 0 auto;
             }
         }
     </style>
@@ -61,61 +99,69 @@
 
     <div class="container">
         <header class="section">
-            <img src="your-photo.jpg" alt="Tanmay Jyothis">
-            <h1>Tanmay J</h1>
+            <img src="images/pfp.jpg" alt="Tanmay Jyothis Profile Picture" class="profile-pic">
+            <div>
+                <h1>Tanmay J</h1>
+                <h2>Computer Science & Mathematics</h2>
+                <p>University of Maryland, College Park</p>
+            </div>
         </header>
 
         <section class="section">
             <h2>About Me</h2>
             <p>
-                Hello! I am a Computer Science and Mathematics major at the University of Maryland, College Park, 
+                Hello! I am a Computer Science and Mathematics major at the University of Maryland, 
                 with interests spanning programming languages, compiler design, machine learning, 
-                and probabilistic systems. Currently, I am exploring Scheme & Racket while developing 
-                interpreters and compilers in these languages (having previously built one in OCaml), 
-                and taking graduate courses in Machine Learning and Stochastic Processes.
+                and probabilistic systems. I am currently exploring Scheme & Racket while developing 
+                interpreters and compilers (having previously built one in OCaml), and taking 
+                graduate courses in Machine Learning and Stochastic Processes.
             </p>
             <p>
                 I am passionate about solving complex problems through programming and mathematical modeling, 
-                and am actively seeking industry opportunities.
+                I'm actively seeking industry opportunities that challenge my technical and analytical 
+                capabilities.
             </p>
         </section>
 
-        <!-- New Courses Section -->
         <section class="section">
             <h2>Relevant Courses</h2>
             <div class="courses-container">
                 <div class="course-column">
                     <h3>Computer Science</h3>
                     <ul>
-                        <li>CMSC828C: Statistical Pattern Recognition (Machine Learning, Graduate level)</li>
+                        <li>CMSC828C: Statistical Pattern Recognition (Graduate)</li>
                         <li>CMSC430: Compilers</li>
-                        <li>CMSC451: Design and Analysis of Algorithms</li>
-                        <li>CMSC320: Introduction to Data Science</li>
+                        <li>CMSC451: Algorithm Design & Analysis</li>
+                        <li>CMSC320: Data Science</li>
                     </ul>
                 </div>
                 <div class="course-column">
                     <h3>Mathematics</h3>
                     <ul>
-                        <li>STAT650: Applied Stochastic Processes (Graduate Level)</li>
-                        <li>ENEE620: Probability Theory (Measure Theoretic, Graduate Level)</li>
+                        <li>STAT650: Applied Stochastic Processes (Graduate)</li>
+                        <li>ENEE620: Measure Theoretic Probability</li>
                         <li>MATH405: Linear Algebra</li>
                         <li>MATH410: Advanced Calculus I</li>
                     </ul>
                 </div>
             </div>
-            
-            <p>
-              My current cumulative GPA is 3.655. 
+            <p style="margin-top: 1.5rem; color: #444;">
+                Current Cumulative GPA: 3.655
             </p>
         </section>
 
         <section class="section">
             <h2>Contact</h2>
             <p>
-                Email: <a href="mailto:tjyothis@umd.edu">tjyothis@umd.edu</a><br>
-                GitHub: <a href="https://github.com/tjyothis4">tjyothis4</a>
+                📧 <a href="mailto:tjyothis@umd.edu" style="color: #007bff;">tjyothis@umd.edu</a><br>
+                💻 <a href="https://github.com/tjyothis4" style="color: #007bff;">GitHub/tjyothis4</a>
             </p>
         </section>
     </div>
+
+    <footer>
+        <p>© 2025 Tanmay J. All rights reserved.</p>
+        <p>Built with HTML & CSS</p>
+    </footer>
 </body>
 </html>
