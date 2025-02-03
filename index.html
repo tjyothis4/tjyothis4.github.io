@@ -5,109 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanmay Jyothis</title>
     <style>
-        /* Added profile picture styling */
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.7;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 680px;
+            color: #222;
+            background: #fff;
+        }
+        nav {
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+        }
+        nav a {
+            margin-right: 1.5rem;
+            text-decoration: none;
+            color: #444;
+            font-size: 0.95em;
+        }
+        nav a:hover {
+            color: #000;
+        }
         .profile-pic {
-            width: 200px;
-            height: 200px;
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid #f0f0f0;
+            border: 2px solid #f0f0f0;
+            margin-right: 2rem;
         }
-
-        /* Added header layout */
-        header.section {
+        header {
             display: flex;
             align-items: center;
-            gap: 30px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #f0f0f0;
         }
-
-        /* Rest of your existing CSS */
+        h1, h2 {
+            font-weight: normal;
+            color: #111;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin: 0 0 0.5rem;
+        }
+        h2 {
+            font-size: 1.4em;
+            margin: 0 0 1.5rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+        p {
+            color: #444;
+            line-height: 1.8;
+            margin: 0 0 1.5rem;
+        }
         .courses-container {
             display: flex;
             gap: 2rem;
             margin-top: 1rem;
         }
-
         .course-column {
             flex: 1;
-            background: #f8f8f8;
-            padding: 1.5rem;
-            border-radius: 8px;
+            padding: 0;
         }
-
         .course-column h3 {
-            margin-top: 0;
-            color: #2c3e50;
-            padding-bottom: 0.5rem;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.95em;
+            color: #666;
+            margin: 0 0 1rem;
+            letter-spacing: 0.5px;
         }
-
         .course-column ul {
             padding-left: 1.2rem;
             list-style-type: square;
+            color: #444;
         }
-
-        .course-column a {
-            color: #2c3e50;
+        .course-column li {
+            margin-bottom: 0.6rem;
+        }
+        a {
+            color: #007bff;
             text-decoration: none;
         }
-
-        .course-column a:hover {
+        a:hover {
             text-decoration: underline;
         }
-
-        @media (max-width: 600px) {
-            .courses-container {
-                flex-direction: column;
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: #666;
+            padding: 2rem 0;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+                font-size: 15px;
             }
-            header.section {
+            header {
                 flex-direction: column;
                 text-align: center;
             }
             .profile-pic {
-                margin: 0 auto;
+                margin: 0 0 1.5rem 0;
             }
-        }
-
-        /* Added basic body styling */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0 auto;
-            padding: 20px;
-            max-width: 800px;
-            color: #333;
-        }
-
-        nav {
-            background-color: #f4f4f4;
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #2c3e50;
-            font-weight: 500;
-        }
-
-        nav a:hover {
-            color: #007bff;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            color: #666;
-            padding: 20px 0;
-            border-top: 1px solid #eee;
+            .courses-container {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
@@ -117,75 +125,66 @@
         <a href="blog.html">Blog</a>
     </nav>
 
-    <div class="container">
-        <header class="section">
-            <img src="./images/pfp.jpeg" alt="Tanmay Jyothis Profile Picture" class="profile-pic">
+    <main>
+        <header>
+            <img src="./images/pfp.jpeg" alt="Tanmay Jyothis" class="profile-pic">
             <div>
                 <h1>Tanmay Jyothis</h1>
-                <p>Computer Science & Mathematics @ University of Maryland, College Park</p>
+                <p>Computer Science & Mathematics<br>
+                University of Maryland, College Park</p>
             </div>
         </header>
 
         <section class="section">
-            <h2>About Me</h2>
+            <h2>About</h2>
             <p>
-                Hello! I am a Computer Science and Mathematics major at the University of Maryland, 
-                with interests spanning programming languages, compiler design, machine learning, 
-                and probabilistic systems. I am currently exploring Scheme & Racket while developing 
-                interpreters and compilers (having previously built one in OCaml), and taking 
-                graduate courses in Machine Learning and Stochastic Processes.
-            </p>
-            <p>
-                I am passionate about solving complex problems through programming and mathematical modeling, 
-                I'm actively seeking industry opportunities that challenge my technical and analytical 
-                capabilities.
+                Hello! I am a Computer Science and Mathematics major with a passion for programming languages, compilers, and probabilistic systems. 
+                Right now, I’m diving into two projects: learning to build compilers using Racket and 
+                deepening my understanding of machine learning. 
             </p>
         </section>
+
         <section class="section">
-            <h2>Relevant Courses</h2>
-            <p style="color: #666; font-size: 0.95em; margin-bottom: 1.5rem;">
-                <em>Courses numbered 600 or above indicate graduate-level coursework</em>
+            <h2>Coursework</h2>
+            <p style="color: #666; margin-bottom: 1.5rem;">
+                <em>Courses numbered 600+ indicate graduate-level work</em>
             </p>
-            
             <div class="courses-container">
-                <!-- Course columns -->
                 <div class="course-column">
                     <h3>Computer Science</h3>
                     <ul>
                         <li>CMSC828C: Statistical Pattern Recognition</li>
                         <li>CMSC430: Compilers</li>
-                        <li>CMSC451: Algorithm Design & Analysis</li>
+                        <li>CMSC451: Algorithm Design</li>
                         <li>CMSC320: Data Science</li>
                     </ul>
                 </div>
                 <div class="course-column">
                     <h3>Mathematics</h3>
                     <ul>
-                        <li><a href="https://user.eng.umd.edu/~abarg/620/" target="_blank">
-                            ENEE620: Measure Theoretic Probability
-                        </a></li>
-                        <li>STAT650: Applied Stochastic Processes</li>
+                        <li><a href="https://user.eng.umd.edu/~abarg/620/">ENEE620: Measure Theory</a></li>
+                        <li>STAT650: Stochastic Processes</li>
                         <li>MATH405: Linear Algebra</li>
-                        <li>MATH410: Advanced Calculus I</li>
+                        <li>MATH410: Advanced Calculus</li>
                     </ul>
                 </div>
             </div>
-            <p style="margin-top: 1.5rem; color: #444;">
-                Current Cumulative GPA: 3.655
+            <p style="color: #666; margin-top: 1.5rem;">
+                Cumulative GPA: 3.655
             </p>
         </section>
 
         <section class="section">
             <h2>Contact</h2>
             <p>
-                Email: <a href="mailto:tjyothis@umd.edu" style="color: #007bff;">tjyothis@umd.edu</a><br>
-                Github: <a href="https://github.com/tjyothis4" style="color: #007bff;">GitHub/tjyothis4</a>
+                <a href="mailto:tjyothis@umd.edu">tjyothis@umd.edu</a><br>
+                <a href="https://github.com/tjyothis4">GitHub/tjyothis4</a>
             </p>
         </section>
-    </div>
+    </main>
 
     <footer>
-        <p>© 2025 Tanmay J. All rights reserved.</p>
+        <p>© 2025 Tanmay J</p>
         <p>Built with HTML & CSS</p>
     </footer>
 </body>
