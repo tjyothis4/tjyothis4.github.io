@@ -6,77 +6,114 @@
     <title>Blog - Tanmay J</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             line-height: 1.6;
             margin: 0 auto;
             padding: 20px;
             max-width: 800px;
             color: #333;
+            background-color: #fafafa;
         }
         nav {
-            background-color: #f4f4f4;
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 8px;
+            background-color: #ffffff;
+            padding: 12px 20px;
+            margin: -20px -20px 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
         nav a {
-            margin-right: 15px;
+            margin-right: 20px;
             text-decoration: none;
             color: #2c3e50;
             font-weight: 500;
+            transition: color 0.2s ease;
         }
         nav a:hover {
             color: #007bff;
         }
+        .container {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-size: 2.2em;
+            color: #1a1a1a;
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+        }
         .blog-intro {
-            margin-bottom: 40px;
             font-size: 1.1em;
             line-height: 1.8;
-            border-left: 3px solid #007bff;
-            padding-left: 20px;
-            color: #444;
+            color: #555;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
         }
         .blog-post {
-            margin-bottom: 50px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 30px;
-            transition: transform 0.2s ease;
+            margin-bottom: 3rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: background-color 0.2s ease;
         }
         .blog-post:hover {
-            transform: translateX(10px);
+            background-color: #f8f9fa;
         }
         .post-date {
-            color: #666;
+            color: #6c757d;
             font-size: 0.9em;
-            margin-top: -10px;
+            margin-bottom: 0.8rem;
             display: block;
+            letter-spacing: 0.5px;
         }
         .blog-post h2 {
-            margin-bottom: 8px;
+            font-size: 1.4em;
+            margin: 0 0 0.8rem;
+            font-weight: 600;
         }
         .blog-post h2 a {
             color: inherit;
             text-decoration: none;
+            transition: color 0.2s ease;
         }
-        .blog-post h2:hover {
+        .blog-post h2 a:hover {
             color: #007bff;
+        }
+        .blog-post p {
+            color: #444;
+            margin: 0 0 1rem;
+            line-height: 1.7;
         }
         .read-more {
             color: #007bff;
             text-decoration: none;
             font-weight: 500;
-            display: inline-block;
-            margin-top: 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.95em;
         }
         .read-more:hover {
             text-decoration: underline;
         }
         footer {
             text-align: center;
-            margin-top: 50px;
+            margin-top: 4rem;
             color: #666;
-            padding: 20px 0;
+            padding: 2rem 0 1rem;
             border-top: 1px solid #eee;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
         }
     </style>
 </head>
@@ -87,27 +124,30 @@
     </nav>
 
     <div class="container">
-        <h1>Thoughts on books I've read, and other stuff</h1>
+        <h1>Thoughts, Essays, and Book reviews</h1>
         
         <p class="blog-intro">
-            A compilation of essays, book reviews, and maybe other random stuff. So far, this section is somewhat underutilized
-            and I hope to keep adding things here.
+            I'm hoping to blog more this year and make use of this thusfar underutilized website. I'm not sure 
+            what exactly it will look like, but hopefully it will be useful for the right audience. 
         </p>
 
         <div class="blog-post">
+            <span class="post-date">December 27, 2023</span>
             <h2>
                 <a href="https://medium.com/@tjyothis/navigating-reality-wisdom-from-nassim-talebs-skin-in-the-game-0378327774fa" target="_blank">
                     Navigating Reality: Wisdom from Nassim Taleb's Skin in the Game
                 </a>
             </h2>
-            <span class="post-date">December 27, 2023</span>
             <p>
-                I love Nassim Taleb's <i>Incerto</i>. 
+                I love Nassim Taleb's <i>Incerto</i>. Here's an article on the first <i>Incerto</i> I read. 
             </p>
             <a href="https://medium.com/@tjyothis/navigating-reality-wisdom-from-nassim-talebs-skin-in-the-game-0378327774fa" 
                class="read-more" 
                target="_blank">
-                Continue reading on Medium →
+                <span>Read full analysis</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
             </a>
         </div>
 
@@ -115,7 +155,7 @@
 
     <footer>
         <p>© 2025 Tanmay J. All rights reserved.</p>
-        <p>Views expressed are my own</p>
+        <p>Independent perspectives on systems and stories</p>
     </footer>
 </body>
 </html>
