@@ -1,191 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanmay Jyothis</title>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            line-height: 1.7;
-            margin: 0 auto;
-            padding: 20px;
-            max-width: 680px;
-            color: #222;
-            background: #fff;
-        }
-        nav {
-            padding: 1rem 0;
-            margin-bottom: 2rem;
-            border-bottom: 1px solid #eee;
-        }
-        nav a {
-            margin-right: 1.5rem;
-            text-decoration: none;
-            color: #444;
-            font-size: 0.95em;
-        }
-        nav a:hover {
-            color: #000;
-        }
-        .profile-pic {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #f0f0f0;
-            margin-right: 2rem;
-        }
-        header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2.5rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        h1, h2 {
-            font-weight: normal;
-            color: #111;
-        }
-        h1 {
-            font-size: 1.8em;
-            margin: 0 0 0.5rem;
-        }
-        h2 {
-            font-size: 1.4em;
-            margin: 0 0 1.5rem;
-        }
-        .section {
-            margin-bottom: 3rem;
-        }
-        p {
-            color: #444;
-            line-height: 1.8;
-            margin: 0 0 1.5rem;
-        }
-        .courses-container {
-            display: flex;
-            gap: 2rem;
-            margin-top: 1rem;
-        }
-        .course-column {
-            flex: 1;
-            padding: 0;
-        }
-        .course-column h3 {
-            font-family: 'Arial', sans-serif;
-            font-size: 0.95em;
-            color: #666;
-            margin: 0 0 1rem;
-            letter-spacing: 0.5px;
-        }
-        .course-column ul {
-            padding-left: 1.2rem;
-            list-style-type: square;
-            color: #444;
-        }
-        .course-column li {
-            margin-bottom: 0.6rem;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            margin-top: 4rem;
-            color: #666;
-            padding: 2rem 0;
-            font-size: 0.9em;
-        }
-        @media (max-width: 768px) {
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tanmay Jyothis</title>
+        <style>
             body {
-                padding: 15px;
-                font-size: 15px;
+                font-family: "Georgia", serif;
+                line-height: 1.7;
+                margin: 0 auto;
+                padding: 20px;
+                max-width: 680px;
+                color: #222;
+                background: #fff;
             }
-            header {
-                flex-direction: column;
-                text-align: center;
+            nav {
+                padding: 1rem 0;
+                margin-bottom: 2rem;
+                border-bottom: 1px solid #eee;
+            }
+            nav a {
+                margin-right: 1.5rem;
+                text-decoration: none;
+                color: #444;
+                font-size: 0.95em;
+            }
+            nav a:hover {
+                color: #000;
             }
             .profile-pic {
-                margin: 0 0 1.5rem 0;
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid #f0f0f0;
+                margin-right: 2rem;
+            }
+            header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 2.5rem;
+                padding-bottom: 2rem;
+                border-bottom: 1px solid #f0f0f0;
+            }
+            h1,
+            h2 {
+                font-weight: normal;
+                color: #111;
+            }
+            h1 {
+                font-size: 1.8em;
+                margin: 0 0 0.5rem;
+            }
+            h2 {
+                font-size: 1.4em;
+                margin: 0 0 1.5rem;
+            }
+            .section {
+                margin-bottom: 3rem;
+            }
+            p {
+                color: #444;
+                line-height: 1.8;
+                margin: 0 0 1.5rem;
             }
             .courses-container {
-                flex-direction: column;
+                display: flex;
+                gap: 2rem;
+                margin-top: 1rem;
             }
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-    </nav>
+            .course-column {
+                flex: 1;
+                padding: 0;
+            }
+            .course-column h3 {
+                font-family: "Arial", sans-serif;
+                font-size: 0.95em;
+                color: #666;
+                margin: 0 0 1rem;
+                letter-spacing: 0.5px;
+            }
+            .course-column ul {
+                padding-left: 1.2rem;
+                list-style-type: square;
+                color: #444;
+            }
+            .course-column li {
+                margin-bottom: 0.6rem;
+            }
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                text-align: center;
+                margin-top: 4rem;
+                color: #666;
+                padding: 2rem 0;
+                font-size: 0.9em;
+            }
+            @media (max-width: 768px) {
+                body {
+                    padding: 15px;
+                    font-size: 15px;
+                }
+                header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .profile-pic {
+                    margin: 0 0 1.5rem 0;
+                }
+                .courses-container {
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+        </nav>
 
-    <main>
-        <header>
-            <img src="./images/pfp.jpeg" alt="Tanmay Jyothis" class="profile-pic">
-            <div>
-                <h1>Tanmay Jyothis</h1>
-                <p>Computer Science & Mathematics<br>
-                University of Maryland, College Park</p>
-            </div>
-        </header>
-
-        <section class="section">
-            <h2>About</h2>
-            <p>
-                Hello! I am a Computer Science and Mathematics major with a passion for programming languages, compilers, and probabilistic systems. 
-                Right now, I’m diving into two projects: learning to build compilers using Racket and 
-                deepening my understanding of machine learning. 
-            </p>
-        </section>
-
-        <section class="section">
-            <h2>Coursework</h2>
-            <p style="color: #666; margin-bottom: 1.5rem;">
-                <em>Courses numbered 600+ indicate graduate-level coursework</em>
-            </p>
-            <div class="courses-container">
-                <div class="course-column">
-                    <h3>Computer Science</h3>
-                    <ul>
-                        <li>CMSC828C: Statistical Pattern Recognition</li>
-                        <li>CMSC430: Compilers</li>
-                        <li>CMSC451: Algorithm Design</li>
-                        <li>CMSC320: Data Science</li>
-                    </ul>
+        <main>
+            <header>
+                <img
+                    src="./images/pfp.jpeg"
+                    alt="Tanmay Jyothis"
+                    class="profile-pic"
+                />
+                <div>
+                    <h1>Tanmay Jyothis</h1>
+                    <p>
+                        Computer Science & Mathematics<br />
+                        University of Maryland, College Park
+                    </p>
                 </div>
-                <div class="course-column">
-                    <h3>Mathematics</h3>
-                    <ul>
-                        <li><a href="https://user.eng.umd.edu/~abarg/620/">ENEE620: Random Processes in Communication & Control</a></li>
-                        <li>STAT650: Stochastic Processes</li>
-                        <li>MATH405: Linear Algebra</li>
-                        <li>MATH410: Advanced Calculus</li>
-                    </ul>
+            </header>
+
+            <section class="section">
+                <h2>About</h2>
+                <p>
+                    Hello! My name is Tanmay, I am a rising senior studying
+                    Computer Science and Mathematics at the University of
+                    Maryland, College Park. I am passionate about Programming
+                    Languages, Machine Learning, Probability, and cool
+                    technologies. <br />
+
+                    My favorite language so far is OCaml.
+                </p>
+            </section>
+
+            <section class="section">
+                <h2>Coursework</h2>
+                <p style="color: #666; margin-bottom: 1.5rem">
+                    <em
+                        >Courses numbered 600+ indicate graduate-level
+                        coursework</em
+                    >
+                </p>
+                <div class="courses-container">
+                    <div class="course-column">
+                        <h3>Computer Science</h3>
+                        <ul>
+                            <li>CMSC828C: Statistical Pattern Recognition</li>
+                            <li>CMSC430: Compilers</li>
+                            <li>CMSC451: Algorithm Design</li>
+                            <li>CMSC320: Data Science</li>
+                        </ul>
+                    </div>
+                    <div class="course-column">
+                        <h3>Mathematics</h3>
+                        <ul>
+                            <li>
+                                <a href="https://user.eng.umd.edu/~abarg/620/"
+                                    >ENEE620: Random Processes in Communication
+                                    & Control</a
+                                >
+                            </li>
+                            <li>STAT650: Stochastic Processes</li>
+                            <li>MATH405: Linear Algebra</li>
+                            <li>MATH410: Advanced Calculus</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <p style="color: #666; margin-top: 1.5rem;">
-                Cumulative GPA: 3.655
-            </p>
-        </section>
+            </section>
 
-        <section class="section">
-            <h2>Contact</h2>
-            <p>
-                <a href="mailto:tjyothis@umd.edu">tjyothis@umd.edu</a><br>
-                <a href="https://github.com/tjyothis4">GitHub/tjyothis4</a>
-            </p>
-        </section>
-    </main>
+            <section class="section">
+                <h2>Contact</h2>
+                <p>
+                    <a href="mailto:tjyothis@umd.edu">tjyothis@umd.edu</a><br />
+                    <a href="https://github.com/tjyothis4">GitHub/tjyothis4</a>
+                </p>
+            </section>
+        </main>
 
-    <footer>
-        <p>© 2025 Tanmay J</p>
-        <p>Built with HTML & CSS</p>
-    </footer>
-</body>
+        <footer>
+            <p>© 2025 Tanmay J</p>
+            <p>Built with HTML & CSS</p>
+        </footer>
+    </body>
 </html>
