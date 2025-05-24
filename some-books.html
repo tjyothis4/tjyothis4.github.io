@@ -3,67 +3,248 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Some Books and Authors</title>
+        <title>Some Books and Authors - Tanmay Jyothis</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap"
+            rel="stylesheet"
+        />
         <style>
+            :root {
+                --bg-primary: #ffffff;
+                --bg-secondary: #fafafa;
+                --text-primary: #2c2c2c;
+                --text-secondary: #5a5a5a;
+                --text-muted: #888888;
+                --accent: #333333;
+                --link: #1f4788;
+                --link-hover: #163a6c;
+                --border: #e0e0e0;
+                --border-hover: #d0d0d0;
+                --shadow: rgba(0, 0, 0, 0.05);
+            }
+
+            [data-theme="dark"] {
+                --bg-primary: #1a1a1a;
+                --bg-secondary: #222222;
+                --text-primary: #e0e0e0;
+                --text-secondary: #b0b0b0;
+                --text-muted: #808080;
+                --accent: #cccccc;
+                --link: #6ba3d6;
+                --link-hover: #8bb5dc;
+                --border: #404040;
+                --border-hover: #505050;
+                --shadow: rgba(0, 0, 0, 0.3);
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
             body {
-                font-family: "Georgia", serif;
-                line-height: 1.7;
+                font-family: "Inter", Georgia, serif;
+                line-height: 1.65;
                 margin: 0 auto;
-                padding: 20px;
-                max-width: 680px;
-                color: #222;
-                background: #fff;
+                padding: 30px;
+                max-width: 750px;
+                color: var(--text-primary);
+                background: var(--bg-primary);
+                transition:
+                    background-color 0.2s ease,
+                    color 0.2s ease;
+                min-height: 100vh;
+                font-size: 16px;
             }
+
             nav {
-                padding: 1rem 0;
-                margin-bottom: 2rem;
-                border-bottom: 1px solid #eee;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 0 2rem 0;
+                margin-bottom: 3rem;
+                border-bottom: 1px solid var(--border);
             }
+
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+            }
+
             nav a {
-                margin-right: 1.5rem;
                 text-decoration: none;
-                color: #444;
-                font-size: 0.95em;
+                color: var(--text-secondary);
+                font-weight: 400;
+                font-size: 1rem;
+                transition: color 0.2s ease;
             }
+
             nav a:hover {
-                color: #000;
+                color: var(--text-primary);
             }
-            h1,
-            h2 {
-                font-weight: normal;
-                color: #111;
+
+            .theme-toggle {
+                background: none;
+                border: 1px solid var(--border);
+                border-radius: 4px;
+                padding: 6px 10px;
+                cursor: pointer;
+                color: var(--text-secondary);
+                transition: all 0.2s ease;
+                font-size: 0.85rem;
+                display: flex;
+                align-items: center;
+                gap: 6px;
             }
+
+            .theme-toggle:hover {
+                border-color: var(--border-hover);
+                color: var(--text-primary);
+            }
+
             h1 {
-                font-size: 1.8em;
-                margin: 0 0 0.5rem;
+                font-size: 2rem;
+                font-weight: 600;
+                color: var(--text-primary);
+                margin: 0 0 2rem;
+                letter-spacing: -0.02em;
             }
+
             h2 {
-                font-size: 1.4em;
-                margin: 2rem 0 1rem;
+                font-size: 1.3rem;
+                font-weight: 500;
+                color: var(--text-primary);
+                margin: 2.5rem 0 1.2rem;
+                letter-spacing: -0.01em;
             }
+
+            .intro {
+                color: var(--text-secondary);
+                line-height: 1.7;
+                margin-bottom: 3rem;
+                font-size: 1rem;
+            }
+
+            .book-section {
+                border-bottom: 1px solid var(--border);
+                padding-bottom: 2.5rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .book-section:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+
+            .book-section h2 {
+                margin-top: 0;
+                margin-bottom: 1.2rem;
+                color: var(--text-primary);
+            }
+
             p {
-                color: #444;
-                line-height: 1.8;
-                margin: 0 0 1.5rem;
+                color: var(--text-secondary);
+                line-height: 1.7;
+                margin: 0 0 1.2rem;
+                font-size: 1rem;
             }
+
+            p:last-child {
+                margin-bottom: 0;
+            }
+
+            em {
+                font-style: italic;
+                color: var(--text-primary);
+                font-weight: 400;
+            }
+
+            a {
+                color: var(--link);
+                text-decoration: none;
+                transition: color 0.2s ease;
+            }
+
+            a:hover {
+                color: var(--link-hover);
+                text-decoration: underline;
+            }
+
+            .back-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: var(--text-muted);
+                text-decoration: none;
+                font-size: 0.9rem;
+                margin-bottom: 2rem;
+                transition: color 0.2s ease;
+            }
+
+            .back-link::before {
+                content: "←";
+            }
+
+            .back-link:hover {
+                color: var(--text-primary);
+                text-decoration: none;
+            }
+
             footer {
                 text-align: center;
                 margin-top: 4rem;
-                color: #666;
+                color: var(--text-muted);
                 padding: 2rem 0;
-                font-size: 0.9em;
+                font-size: 0.85rem;
+                border-top: 1px solid var(--border);
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    padding: 20px;
+                    font-size: 15px;
+                }
+
+                nav {
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+
+                .nav-links {
+                    gap: 1.5rem;
+                }
+
+                h1 {
+                    font-size: 1.7rem;
+                }
+
+                h2 {
+                    font-size: 1.2rem;
+                }
             }
         </style>
     </head>
     <body>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="blog.html">Blog</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <span id="theme-icon">🌙</span>
+                <span id="theme-text">Dark</span>
+            </button>
         </nav>
 
         <main>
+            <a href="blog.html" class="back-link">Back to Blog</a>
+
             <h1>Some Books and Authors</h1>
-            <p>
+
+            <p class="intro">
                 Over the past few years, I've revisited the same few ideas,
                 books, authors, and Twitter accounts, and I thought I'd list
                 them down here. A lot of serendipity was involved in discovering
@@ -71,81 +252,171 @@
                 recommendations, and citations led me to find their work.
             </p>
 
-            <h2>1. Nassim Taleb</h2>
-            <p>
-                Quantitative trader turned philosopher, Nassim Taleb's books
-                have ideas with the furthest reach than any other collection of
-                books I've read. Without feeling even a modicum of cringe, I can
-                say that his books changed my life. If you ignore the attitude
-                (or even enjoy it), it will help you understand risk,
-                nonlinearity, complex systems, tail events, the fragility of
-                prediction, top down vs bottom up, antifragility of tinkering,
-                incentives (crucially disincentives), and more. My favorites are
-                <em>Fooled by Randomness</em> and <em>Skin in the Game</em>. The
-                <em>Incerto</em> is accessible in any order, but I recommend
-                starting from <em>Fooled by Randomness</em>.
-            </p>
+            <section class="book-section">
+                <h2>1. Nassim Taleb</h2>
+                <p>
+                    Quantitative trader turned philosopher, Nassim Taleb's books
+                    have ideas with the furthest reach than any other collection
+                    of books I've read. Without feeling even a modicum of
+                    cringe, I can say that his books changed my life. If you
+                    ignore the attitude (or even enjoy it), it will help you
+                    understand risk, nonlinearity, complex systems, tail events,
+                    the fragility of prediction, top down vs bottom up,
+                    antifragility of tinkering, incentives (crucially
+                    disincentives), and more. My favorites are
+                    <em>Fooled by Randomness</em> and <em>Skin in the Game</em>.
+                    The <em>Incerto</em> is accessible in any order, but I
+                    recommend starting from <em>Fooled by Randomness</em>.
+                </p>
+            </section>
 
-            <h2>2. Karl Popper (<em>The</em> Philosopher of Science)</h2>
-            <p>
-                What makes something scientific? How does one distinguish
-                Science from Pseudoscience? Much of society gets a somewhat
-                distorted view of what Science is about, particularly from
-                famous science communicators who are prone to what can best be
-                described as <em>Scientism</em>. Popper's ideas also changed how
-                I think. It was eye-opening to realize that there is no 'true'
-                theory, just theories that haven't been falsified yet, and the
-                hallmark of a scientific theory is if it makes falsifiable
-                predictions. A failed attempt at falsification makes a theory
-                stronger.
-            </p>
-            <p>
-                For the general reader, I recommend
-                <em>The Open Society and Its Enemies</em>. And if this reminds
-                you of the Soros foundation with the same name, it might
-                interest you to know Soros studied philosophy under Karl Popper.
-                Ironically, the Soros foundation is completely Anti-Popperian.
-            </p>
+            <section class="book-section">
+                <h2>2. Karl Popper (<em>The</em> Philosopher of Science)</h2>
+                <p>
+                    What makes something scientific? How does one distinguish
+                    Science from Pseudoscience? Much of society gets a somewhat
+                    distorted view of what Science is about, particularly from
+                    famous science communicators who are prone to what can best
+                    be described as scientism. Popper's ideas also changed how I
+                    think. It was eye-opening to realize that there is no 'true'
+                    theory, just theories that haven't been falsified yet, and
+                    the hallmark of a scientific theory is if it makes
+                    falsifiable predictions. A failed attempt at falsification
+                    makes a theory stronger.
+                </p>
+                <p>
+                    For the general reader, I recommend
+                    <em>The Open Society and Its Enemies</em>. And if this
+                    reminds you of the Soros foundation with the same name, it
+                    might interest you to know Soros studied philosophy under
+                    Karl Popper. Ironically, the Soros foundation is completely
+                    Anti-Popperian.
+                </p>
+            </section>
 
-            <h2>3. Sean McClure (@sean_a_mcclure on Twitter)</h2>
-            <p>
-                He is less famous than the previous two, but I am glad I
-                discovered him on Twitter. Valuable insights that have
-                complexity as their primary theme. Highly recommend
-                <em>Discovered Not Designed</em>, although reading Taleb first
-                as a primer might be a good idea, because otherwise you might
-                think he's crazy.
-            </p>
+            <section class="book-section">
+                <h2>3. Sean McClure (@sean_a_mcclure on Twitter)</h2>
+                <p>
+                    He is less famous than the previous two, but I am glad I
+                    discovered him on Twitter. Valuable insights that have
+                    complexity as their primary theme. Highly recommend
+                    <em>Discovered Not Designed</em>, although reading Taleb
+                    first as a primer might be a good idea, because otherwise
+                    you might think he's crazy.
+                </p>
+            </section>
 
-            <h2>4. Iterated Prisoner's Dilemma and Related</h2>
-            <p>
-                Canonical Game Theory thought experiment—everyone should know
-                it. Tit-for-tat + forgiveness generalizes very easily to all of
-                life, and it will instill a desire to play long-term (iterated)
-                games with people as a way to succeed. Unbeknownst to most
-                selfish people, the optimal way to be selfish is to be selfless,
-                so just be selfless and everyone wins. However, you can't do it
-                with people that don't get it intuitively. The primary goal of
-                business, then, becomes finding people you can play long-term
-                games with, and cutting out short-term players.
-            </p>
+            <section class="book-section">
+                <h2>4. Iterated Prisoner's Dilemma and Related</h2>
+                <p>
+                    Canonical Game Theory thought experiment—everyone should
+                    know it. Tit-for-tat + forgiveness generalizes very easily
+                    to all of life, and it will instill a desire to play
+                    long-term (iterated) games with people as a way to succeed.
+                    Unbeknownst to most selfish people, the optimal way to be
+                    selfish is to be selfless, so just be selfless and everyone
+                    wins. However, you can't do it with people that don't get it
+                    intuitively. The primary goal of business, then, becomes
+                    finding people you can play long-term games with, and
+                    cutting out short-term players.
+                </p>
+            </section>
 
-            <h2>5. Peter Thiel (<em>Zero to One</em>)</h2>
-            <p>
-                Thiel is probably the only insightful techno-billionaire and the
-                book is packed with insights on startups, business, and sales.
-                It walks a tightrope walk between being completely obvious and
-                completely contrarian, and I've only ever seen Thiel do
-                something like this. The book also makes you appreciate true
-                value creation, and to notice incremental changes (10 to 11) vs
-                transformative changes (0 to 1). Right now, OpenAI is the most
-                obvious example of going from Zero To One.
-            </p>
+            <section class="book-section">
+                <h2>5. Peter Thiel (<em>Zero to One</em>)</h2>
+                <p>
+                    Thiel is probably the only insightful techno-billionaire and
+                    the book is packed with insights on startups, business, and
+                    sales. It walks a tightrope walk between being completely
+                    obvious and completely contrarian, and I've only ever seen
+                    Thiel do something like this. The book also makes you
+                    appreciate true value creation, and to notice incremental
+                    changes (10 to 11) vs transformative changes (0 to 1). Right
+                    now, OpenAI is the most obvious example of going from Zero
+                    To One.
+                </p>
+            </section>
         </main>
 
         <footer>
             <p>© 2025 Tanmay J</p>
-            <p>Built with HTML & CSS</p>
         </footer>
+
+        <script>
+            function toggleTheme() {
+                try {
+                    const html = document.documentElement;
+                    const themeIcon = document.getElementById("theme-icon");
+                    const themeText = document.getElementById("theme-text");
+
+                    if (!themeIcon || !themeText) return;
+
+                    if (html.getAttribute("data-theme") === "dark") {
+                        html.removeAttribute("data-theme");
+                        themeIcon.textContent = "🌙";
+                        themeText.textContent = "Dark";
+                        try {
+                            localStorage.setItem("theme", "light");
+                        } catch (e) {}
+                    } else {
+                        html.setAttribute("data-theme", "dark");
+                        themeIcon.textContent = "☀️";
+                        themeText.textContent = "Light";
+                        try {
+                            localStorage.setItem("theme", "dark");
+                        } catch (e) {}
+                    }
+                } catch (error) {
+                    console.log("Theme toggle error:", error);
+                }
+            }
+
+            function initTheme() {
+                try {
+                    let savedTheme = null;
+                    try {
+                        savedTheme = localStorage.getItem("theme");
+                    } catch (e) {}
+
+                    const prefersDark =
+                        window.matchMedia &&
+                        window.matchMedia("(prefers-color-scheme: dark)")
+                            .matches;
+
+                    if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+                        document.documentElement.setAttribute(
+                            "data-theme",
+                            "dark",
+                        );
+                        const themeIcon = document.getElementById("theme-icon");
+                        const themeText = document.getElementById("theme-text");
+                        if (themeIcon) themeIcon.textContent = "☀️";
+                        if (themeText) themeText.textContent = "Light";
+                    }
+                } catch (error) {
+                    console.log("Theme init error:", error);
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", initTheme);
+
+            if (window.matchMedia) {
+                try {
+                    window
+                        .matchMedia("(prefers-color-scheme: dark)")
+                        .addEventListener("change", function (e) {
+                            try {
+                                if (!localStorage.getItem("theme")) {
+                                    initTheme();
+                                }
+                            } catch (e) {
+                                initTheme();
+                            }
+                        });
+                } catch (error) {
+                    console.log("Media query listener error:", error);
+                }
+            }
+        </script>
     </body>
 </html>
