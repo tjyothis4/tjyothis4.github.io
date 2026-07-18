@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}} — Tanmay Jyothis</title>
+    <meta name="description" content="{{description}}" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="page">
+        <nav>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html" aria-current="page">Blog</a>
+            </div>
+        </nav>
+
+        <main>
+            <header class="post-header">
+                <time class="post-date" datetime="{{date_iso}}">{{date_display}}</time>
+                <h1>{{title}}</h1>
+            </header>
+
+            <article class="post-body">
+{{content}}
+            </article>
+
+            <p class="post-footer"><a href="blog.html">← All posts</a></p>
+        </main>
+
+        <footer>
+            <span>© {{year}} Tanmay Jyothis</span>
+        </footer>
+    </div>
+</body>
+</html>
