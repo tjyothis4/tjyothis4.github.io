@@ -138,7 +138,7 @@ a:hover {
 
 ul,
 ol {
-    color: var(--text);
+    color: var(--text-secondary);
     padding-left: 1.25rem;
     margin: 0 0 1.1em;
 }
